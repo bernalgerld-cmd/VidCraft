@@ -405,3 +405,24 @@ footer {
     max-width: 600px;
   }
 }
+/* Make the page take the full height of the browser */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make main content area expand to fill leftover space */
+main {
+  flex: 1;
+}
+
+/* Footer stays at the bottom */
+footer {
+  background-color: #4B0000; /* your maroon color */
+  color: #f1e4b3; /* soft gold text */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
